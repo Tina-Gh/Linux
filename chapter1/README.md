@@ -28,7 +28,8 @@ method b) creating a static library using an archiving program ar:
 
    <pre>
       gcc -o program program.o libfoo.a 
-      (or: gcc -o program program.o -L./ libfoo.a)
+      (or: gcc -o program program.o -L. libfoo.a)
+      (or: gcc -o program program.o -L. -lfoo)
    </pre>
 
 
