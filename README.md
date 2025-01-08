@@ -24,7 +24,7 @@ method b) creating a static library using an archiving program ar:
   <pre>
     ar crv libfoo.a george.o fred.o 
     ranlib libfoo.a
-  <\pre>
+  </pre>
 
 
 
