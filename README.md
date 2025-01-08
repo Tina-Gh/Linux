@@ -1,6 +1,5 @@
 # Linux
 
-/h
 ### Chapter 1:
 
 1. Running a simple program hello.c:
