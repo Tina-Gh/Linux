@@ -1,4 +1,2 @@
 # Linux
 
-### Chapter 1:
-
