@@ -11,7 +11,7 @@
 
 3. Making a library file using fred.c, george.c for program.c:
   
-method a) using linking method: 
+method a) using linking method: (ps: program.c includes a header file lib.h which contains function definitions from fred.c and george.c)
    <pre>
     gcc -c fred.c george.c 
     gcc -c program.c
