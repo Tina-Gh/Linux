@@ -3,12 +3,13 @@
 ### Chapter 1:
 
 1. Running a simple program hello.c:
+   
    <pre>
      gcc -o hello hello.c
      ./hello
    </pre>
 
-2. Making a library file using fred.c, george.c for program.c:
+3. Making a library file using fred.c, george.c for program.c:
   
 method a) using linking method: 
    <pre>
@@ -20,7 +21,6 @@ method a) using linking method:
   
 
 method b) creating a static library using an archiving program ar:
-
    <pre>
     ar crv libfoo.a george.o fred.o 
     ranlib libfoo.a
