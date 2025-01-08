@@ -11,20 +11,20 @@
 2. Making a library file using fred.c, george.c for program.c:
   
 method a) using linking method: 
-  <pre>
+   <pre>
     gcc -c fred.c george.c 
     gcc -c program.c
     gcc -o program program.o george.o
     ./program
-  </pre> 
+   </pre> 
   
 
 method b) creating a static library using an archiving program ar:
 
-  <pre>
+   <pre>
     ar crv libfoo.a george.o fred.o 
     ranlib libfoo.a
-  </pre>
+   </pre>
 
 
 
