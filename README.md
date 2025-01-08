@@ -26,5 +26,9 @@ method b) creating a static library using an archiving program ar:
     ranlib libfoo.a
    </pre>
 
+   <pre>
+      gcc -o program program.o libfoo.a 
+      (or: GCC -o program program.o -L./ libfoo.a)
+   </pre>
 
 
